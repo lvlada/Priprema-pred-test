@@ -71,7 +71,7 @@ section {
   .catalog .column {
     float: left;
     width: 25%;
-    padding: 0.5em;
+    padding: 2em;
     text-align: center; }
     .catalog .column img {
       width: 100%; }
@@ -84,5 +84,24 @@ section {
       margin-top: 1em; }
       .catalog .column a:hover {
         background: #000; }
+
+.pricing table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-top: 2em; }
+  .pricing table th {
+    padding: 1em;
+    background: #ff3720;
+    color: #fff; }
+    .pricing table th:first-child {
+      background: #e42b15; }
+  .pricing table td {
+    border-bottom: 1px solid #797979;
+    padding: 1em;
+    text-align: center; }
+    .pricing table td:first-child {
+      background: #f0f0f0;
+      font-weight: 700; }
 
 /*# sourceMappingURL=Primer_1.css.map */

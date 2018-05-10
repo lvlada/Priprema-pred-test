@@ -78,7 +78,7 @@ section{
 	.column{
 		float:left;
 		width:25%;
-		padding:0.5em;
+		padding:2em;
 		text-align:center;
 
 		img{width:100%}
@@ -96,4 +96,32 @@ section{
 		}
 	}
 
+}
+
+.pricing{
+	
+	
+	table{
+		width:60%;
+		 border-collapse: collapse;
+		 margin:0 auto;
+		 margin-top:2em;
+		 th {
+		 	padding:1em;
+		 	background:#ff3720;
+		 	color:#fff;
+		 	&:first-child{background:$red_dark;}
+
+		 }
+		 
+		 td{
+		 	border-bottom:1px solid $main_text_color;
+		 	padding:1em;
+		 	text-align:center;
+		 	&:first-child{background:$grey_background;font-weight:700;}
+
+
+		 }
+
+	}
 }
