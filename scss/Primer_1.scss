@@ -78,7 +78,7 @@ section{
 	.column{
 		float:left;
 		width:25%;
-		padding:2em;
+		padding:0.5em;
 		text-align:center;
 
 		img{width:100%}
@@ -123,5 +123,61 @@ section{
 
 		 }
 
+	}
+}
+
+footer{
+	@include clearfix;
+	width:100%;
+	padding:2em 10em;
+	background:#000;
+	.logo{
+		display:block;
+		border-bottom:1px solid $main_red;
+		font-size:1em;
+		margin-bottom:1em;
+
+
+	}
+	address{
+		float:left;
+		font-size:0.8em;
+		color:#fff;
+		
+	}
+	.map{
+		float:right;
+		
+	}
+}
+
+
+@media screen and (max-width:970px){
+
+	section{
+		
+		padding:1em 5em;
+	}
+
+	.intro{
+		padding:1em;
+		h1{width:90%;}
+	}
+	.catalog{
+
+		.column{
+			width:50%;
+			margin-bottom:1em;
+		}
+	}
+
+	.pricing{
+		table{
+			width:80%;
+		}
+	}
+	footer{
+		text-align:center;
+		address, .map{float:none;}
 	}
 }

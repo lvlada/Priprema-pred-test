@@ -71,7 +71,7 @@ section {
   .catalog .column {
     float: left;
     width: 25%;
-    padding: 2em;
+    padding: 0.5em;
     text-align: center; }
     .catalog .column img {
       width: 100%; }
@@ -103,5 +103,47 @@ section {
     .pricing table td:first-child {
       background: #f0f0f0;
       font-weight: 700; }
+
+footer {
+  width: 100%;
+  padding: 2em 10em;
+  background: #000; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer .logo {
+    display: block;
+    border-bottom: 1px solid #ff3720;
+    font-size: 1em;
+    margin-bottom: 1em; }
+  footer address {
+    float: left;
+    font-size: 0.8em;
+    color: #fff; }
+  footer .map {
+    float: right; }
+
+@media screen and (max-width: 970px) {
+  section {
+    padding: 1em 5em; }
+
+  .intro {
+    padding: 1em; }
+    .intro h1 {
+      width: 90%; }
+
+  .catalog .column {
+    width: 50%;
+    margin-bottom: 1em; }
+
+  .pricing table {
+    width: 80%; }
+
+  footer {
+    text-align: center; }
+    footer address, footer .map {
+      float: none; } }
 
 /*# sourceMappingURL=Primer_1.css.map */
