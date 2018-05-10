@@ -31,7 +31,7 @@ section{
 		padding:0.5em;
 		background:#fff;
 		@include clearfix;
-		
+
 		.logo{
 			float:left;
 		}
@@ -70,3 +70,30 @@ section{
 	}
 }
 
+
+
+.catalog{
+	@include clearfix;
+	background:$grey_background;
+	.column{
+		float:left;
+		width:25%;
+		padding:0.5em;
+		text-align:center;
+
+		img{width:100%}
+		a{
+			background:$main_red;
+			color:#fff;
+			padding:0.5em 1em;
+			text-decoration:none;
+			display:inline-block;
+			margin-top:1em;
+			&:hover{
+				background:#000;
+			}
+
+		}
+	}
+
+}

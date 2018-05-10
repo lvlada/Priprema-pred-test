@@ -61,4 +61,28 @@ section {
     text-align: center;
     font-weight: normal; }
 
+.catalog {
+  background: #f0f0f0; }
+  .catalog:before, .catalog:after {
+    content: "";
+    display: table; }
+  .catalog:after {
+    clear: both; }
+  .catalog .column {
+    float: left;
+    width: 25%;
+    padding: 0.5em;
+    text-align: center; }
+    .catalog .column img {
+      width: 100%; }
+    .catalog .column a {
+      background: #ff3720;
+      color: #fff;
+      padding: 0.5em 1em;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1em; }
+      .catalog .column a:hover {
+        background: #000; }
+
 /*# sourceMappingURL=Primer_1.css.map */
