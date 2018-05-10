@@ -1,4 +1,64 @@
-h1 {
-  color: red; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #797979; }
+
+section {
+  width: 100%;
+  padding: 2em 10em; }
+  section h2 {
+    color: #797979;
+    text-align: center;
+    text-transform: uppercase; }
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif; }
+  .logo span {
+    color: #ff3720; }
+
+.intro {
+  width: 100vw;
+  height: 100vh;
+  background: url(../slike/background.jpg);
+  backgorund-size: cover; }
+  .intro header {
+    padding: 0.5em;
+    background: #fff; }
+    .intro header:before, .intro header:after {
+      content: "";
+      display: table; }
+    .intro header:after {
+      clear: both; }
+    .intro header .logo {
+      float: left; }
+    .intro header nav {
+      float: right; }
+      .intro header nav a {
+        text-decoration: none; }
+        .intro header nav a:hover {
+          color: #000; }
+      .intro header nav ul {
+        list-style: none; }
+        .intro header nav ul li {
+          display: inline-block;
+          font-size: 0.8em;
+          margin-left: 1em;
+          line-height: 3em; }
+  .intro h1 {
+    width: 60%;
+    color: #fff;
+    font-size: 3em;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid #ff3720;
+    margin: 20% auto 0; }
+  .intro h3 {
+    color: #fff;
+    text-align: center;
+    font-weight: normal; }
 
 /*# sourceMappingURL=Primer_1.css.map */
